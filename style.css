@@ -1,0 +1,305 @@
+/* Указываем box sizing */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Убираем внутренние отступы */
+ul[class],
+ol[class] {
+  padding: 0;
+}
+
+/* Убираем внешние отступы */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+/* Выставляем основные настройки по-умолчанию для body */
+body {
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+/* Удаляем стандартную стилизацию для всех ul и il, у которых есть атрибут class*/
+ul[class],
+ol[class] {
+  list-style: none;
+}
+
+/* Элементы a, у которых нет класса, сбрасываем до дефолтных стилей */
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+/* Упрощаем работу с изображениями */
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* Наследуем шрифты для инпутов и кнопок */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;400;500;700;900&display=swap");
+body {
+  font-family: "Roboto", sans-serif;
+  font-family: "Roboto Slab", serif;
+}
+/*==============BLOCK3===============*/
+.h1-block3 {
+  font-family: Roboto Slab;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 55px;
+  line-height: 101.38%;
+  color: #000000;
+  margin-left: 121px;
+  margin-bottom: 89px;
+}
+.flexCourseBlock3 {
+  box-sizing: border-box;
+  display: flex;
+  margin-bottom: 179px;
+}
+
+.h3-block3 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 130%;
+  color: #1e4681;
+}
+.p-block3 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 130%;
+  color: #000000;
+}
+.h1Whatnew-block3 {
+  margin-left: 121px;
+  font-family: Roboto Slab;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 55px;
+  line-height: 101.38%;
+  color: #000000;
+  margin-bottom: 21px;
+}
+.list-block3 {
+  margin-left: 121px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 150%;
+  color: #000000;
+  margin-bottom: 248px;
+}
+@media (max-width: 1279px) {
+  .h1-block3 {
+    margin-bottom: 51.55px;
+    margin-left: 70.08px;
+    font-size: 32px;
+    line-height: 101.38%;
+  }
+  .flexCourseBlock3 {
+    margin-bottom: 103.55px;
+    margin-left: 70.66px;
+    margin-right: 199px;
+    justify-content: space-between;
+  }
+  .h3-block3 {
+    font-size: 19px;
+    line-height: 130%;
+  }
+  .p-block3 {
+    font-size: 14px;
+    line-height: 130%;
+  }
+  .h1Whatnew-block3 {
+    font-size: 32px;
+    line-height: 101.38%;
+    margin-bottom: 12.16px;
+    margin-left: 70.08px;
+  }
+  .list-block3 {
+    font-size: 21px;
+    line-height: 150%;
+    margin-bottom: 143.63px;
+    margin-left: 79.92px;
+  }
+}
+@media (max-width: 991px) {
+  .h1-block3 {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 101.38%;
+    margin-bottom: 16.66px;
+    margin-left: 36px;
+    margin-right: 5px;
+  }
+  .course-block3 {
+    margin-bottom: 15px;
+    margin-left: 35px;
+  }
+  .flexCourseBlock3 {
+    display: block;
+    margin-left: 25px;
+    margin-bottom: 73px;
+  }
+  .h3-block3 {
+    font-size: 16px;
+    line-height: 130%;
+  }
+  .p-block3 {
+    font-size: 13px;
+    line-height: 130%;
+    margin-bottom: 5px;
+  }
+  .h1Whatnew-block3 {
+    font-size: 26px;
+    line-height: 101.38%;
+    margin-bottom: 9.66px;
+    margin-left: 36px;
+  }
+  .list-block3 {
+    font-size: 18px;
+    line-height: 150%;
+    margin-bottom: 85px;
+    margin-left: 36px;
+    padding-right: 2px;
+  }
+}
+/*==============BLOCK4===============*/
+.courseprogramm {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+}
+.course-block4 {
+  box-sizing: border-box;
+  width: 29%;
+  box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+  margin-left: 37px;
+  margin-bottom: 45px;
+}
+.image-block4 {
+  width: 100%;
+  padding: 0;
+}
+.h3-block4 {
+  padding-left: 10px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 130%;
+  font-family: Roboto;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 39px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #000000;
+}
+.p-block4 {
+  padding-left: 10px;
+  padding-bottom: 10px;
+  font-family: Roboto;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.h1-div-block4 {
+  width: 100%;
+}
+.h1-block4 {
+  box-sizing: border-box;
+  font-family: Roboto Slab;
+  font-size: 55px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 56px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-left: 120px;
+  margin-bottom: 95px;
+  padding-top: 30px;
+}
+@media (max-width: 1279px) {
+  .course-block4 {
+    width: 30%;
+    margin-left: 21px;
+    margin-bottom: 23.75px;
+  }
+  .h1-block4 {
+    font-size: 32px;
+    line-height: 101.38%;
+    margin-bottom: 55px;
+    margin-left: 70px;
+  }
+  .h3-block4 {
+    font-size: 22px;
+    line-height: 130%;
+  }
+  .p-block4 {
+    font-size: 18px;
+    line-height: 130%;
+  }
+}
+@media (max-width: 991px) {
+  .courseprogramm {
+    padding-left: 0px;
+    justify-content: center;
+    width: 100%;
+  }
+  .course-block4 {
+    width: 51%;
+    margin-left: 0;
+  }
+
+  .h1-block4 {
+    box-sizing: border-box;
+    /* padding-left: 40px; */
+    font-size: 26px;
+    line-height: 101.38%;
+    margin-bottom: 35px;
+    margin-left: 34px;
+  }
+
+  .h3-block4 {
+    font-size: 18px;
+    line-height: 130%;
+  }
+  .p-block4 {
+    font-size: 16px;
+    line-height: 130%;
+  }
+}
