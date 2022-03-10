@@ -28,7 +28,10 @@ dl,
 dd {
   margin: 0;
 }
-
+* {
+  margin: 0;
+  padding: 0;
+}
 /* Выставляем основные настройки по-умолчанию для body */
 body {
   min-height: 100vh;
@@ -67,6 +70,11 @@ body {
   font-family: "Roboto Slab", serif;
 }
 /*==============BLOCK3===============*/
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
 .h1-block3 {
   font-family: Roboto Slab;
   font-style: normal;
@@ -74,14 +82,13 @@ body {
   font-size: 55px;
   line-height: 101.38%;
   color: #000000;
-  margin-left: 121px;
   margin-bottom: 89px;
 }
 .flexCourseBlock3 {
   box-sizing: border-box;
   display: flex;
   margin-bottom: 179px;
-  margin-left: 122px;
+  /* margin-left: 122px; */
   justify-content: space-between;
   margin-right: 320px;
 }
@@ -103,7 +110,7 @@ body {
   color: #000000;
 }
 .h1Whatnew-block3 {
-  margin-left: 121px;
+  /* margin-left: 121px; */
   font-family: Roboto Slab;
   font-style: normal;
   font-weight: bold;
@@ -113,7 +120,7 @@ body {
   margin-bottom: 21px;
 }
 .list-block3 {
-  margin-left: 121px;
+  /* margin-left: 121px; */
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
@@ -125,13 +132,13 @@ body {
 @media (max-width: 1279px) {
   .h1-block3 {
     margin-bottom: 51.55px;
-    margin-left: 70.08px;
+    /* margin-left: 70.08px; */
     font-size: 32px;
     line-height: 101.38%;
   }
   .flexCourseBlock3 {
     margin-bottom: 103.55px;
-    margin-left: 70.66px;
+    /* margin-left: 70.66px; */
     margin-right: 199px;
     justify-content: space-between;
   }
@@ -147,13 +154,13 @@ body {
     font-size: 32px;
     line-height: 101.38%;
     margin-bottom: 12.16px;
-    margin-left: 70.08px;
+    /* margin-left: 70.08px; */
   }
   .list-block3 {
     font-size: 21px;
     line-height: 150%;
     margin-bottom: 143.63px;
-    margin-left: 79.92px;
+    /* margin-left: 79.92px; */
   }
 }
 @media (max-width: 991px) {
@@ -162,7 +169,7 @@ body {
     font-size: 26px;
     line-height: 101.38%;
     margin-bottom: 16.66px;
-    margin-left: 36px;
+    /* margin-left: 36px; */
     margin-right: 5px;
   }
   .course-block3 {
@@ -173,7 +180,7 @@ body {
     display: block;
     margin-bottom: 73px;
     margin-right: 13px;
-    margin-left: 35px;
+    /* margin-left: 35px; */
   }
   .h3-block3 {
     font-size: 16px;
@@ -189,13 +196,13 @@ body {
     font-size: 26px;
     line-height: 101.38%;
     margin-bottom: 9.66px;
-    margin-left: 36px;
+    /* margin-left: 36px; */
   }
   .list-block3 {
     font-size: 18px;
     line-height: 150%;
     margin-bottom: 85px;
-    margin-left: 36px;
+    /* margin-left: 36px; */
     padding-right: 2px;
   }
 }
@@ -206,6 +213,7 @@ body {
   flex-wrap: wrap;
   margin-bottom: 121px;
 }
+
 .course-block4 {
   box-sizing: border-box;
   width: 29%;
@@ -255,7 +263,7 @@ body {
   line-height: 56px;
   letter-spacing: 0em;
   text-align: left;
-  margin-left: 120px;
+  /* margin-left: 120px; */
   margin-bottom: 95px;
   padding-top: 30px;
 }
@@ -269,7 +277,7 @@ body {
     font-size: 32px;
     line-height: 101.38%;
     margin-bottom: 55px;
-    margin-left: 70px;
+    /* margin-left: 70px; */
   }
   .h3-block4 {
     font-size: 22px;
@@ -298,7 +306,7 @@ body {
     font-size: 26px;
     line-height: 101.38%;
     margin-bottom: 35px;
-    margin-left: 34px;
+    /* margin-left: 34px; */
   }
 
   .h3-block4 {
