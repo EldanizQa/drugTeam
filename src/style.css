@@ -1,0 +1,144 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&display=swap'); */
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab);
+
+.container {
+  margin: 0 auto;
+  width: 80%;
+}
+.logo {
+  margin-bottom: 100px;
+}
+.data__container {
+  display: flex;
+  gap: 35px;
+  flex-direction: row;
+  font-family: 'Roboto';
+  font-size: 20px;
+  height: 80px;
+}
+.question-img {
+  display: flex;
+  align-items: center;
+}
+.question {
+  display: flex;
+}
+.question__container{
+  display: flex;
+  justify-content: space-between;
+}
+.question-text {
+  width: 628px;
+}
+.question-text h1 {
+  font-family: 'Roboto Slab';
+  font-weight: bold;
+  font-size: 80px;
+  line-height: 101.38%;
+  margin-top: 29px;
+}
+#a {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 150%;
+  margin: 0;
+  width: 414px;
+  height: 62px;
+}
+.blockquote__container{
+  display: flex;
+  justify-content: center;
+}
+.quote {
+  background-color: #1e4681;
+  height: 200px;
+  border-radius: 5px;
+  margin: 70px 0;
+}
+.quote_text {
+  width: 430.59px;
+  height: 113px;
+  font-family: Roboto Slab;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 130%;
+  color: #ffffff;
+  margin: 0.26px 27.02px 0.74px 26.03px;
+  box-sizing: border-box;
+  padding-top: 19px;
+}
+#b {
+  margin: 0;
+}
+#c {
+  font-family: 'Roboto';
+  font-size: 20px;
+  text-align: right;
+  color: #ffffff;
+  margin-top: 10px;
+}
+.about__container{
+  flex-direction: row;
+  justify-content: space-between;
+}
+.about-course h2 {
+  margin: 0;
+  font-family: 'Roboto Slab';
+  font-size: 55px;
+}
+.about-course {
+  width: 80%;
+  margin: 0 auto;
+}
+.about {
+  width: 600px;
+  font-family: Roboto;
+  font-size: 24px;
+  line-height: 150%;
+}
+.block-2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.camera {
+  display: flex;
+  align-items: center;
+}
+.camera img {
+  width: 366px;
+  height: 344px;
+}
+.block-3 {
+  display: flex;
+}
+.block-3-statements {
+  display: flex;
+  justify-content: space-between;
+  width: 65%;
+}
+.block-3__container {
+  margin-top: 4%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.block-3-statements h3 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+}
+.block-3-statements p {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+}
+.block1, .block2, .block3 {
+  width: 170px;
+}
