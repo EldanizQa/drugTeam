@@ -89,7 +89,6 @@ body {
   display: flex;
   margin-bottom: 179px;
   justify-content: space-between;
-  /* width: 1000px; */
   width: 100%;
 }
 
@@ -139,7 +138,6 @@ body {
   .flexCourseBlock3 {
     margin-bottom: 103.55px;
     justify-content: space-between;
-    /* width: 800px; */
     width: 100%;
   }
   .h3-block3 {
@@ -248,8 +246,6 @@ body {
   width: 100%;
 }
 .h1-block4 {
-  /* display: flex;
-  align-items: center; */
   box-sizing: border-box;
   font-family: Roboto Slab;
   font-size: 55px;
@@ -258,10 +254,7 @@ body {
   line-height: 56px;
   letter-spacing: 0em;
   text-align: left;
-  /* height: 125px; */
-  /* margin-left: 120px; */
   margin-bottom: 95px;
-  /* padding-top: 30px; */
 }
 @media (max-width: 1279px) {
   .course-block4 {
@@ -273,7 +266,6 @@ body {
     font-size: 32px;
     line-height: 101.38%;
     margin-bottom: 55px;
-    /* margin-left: 70px; */
   }
   .h3-block4 {
     font-size: 22px;
@@ -298,11 +290,9 @@ body {
 
   .h1-block4 {
     box-sizing: border-box;
-    /* padding-left: 40px; */
     font-size: 26px;
     line-height: 101.38%;
     margin-bottom: 35px;
-    /* margin-left: 34px; */
   }
 
   .h3-block4 {
