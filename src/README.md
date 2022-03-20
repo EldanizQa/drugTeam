@@ -1,1 +1,0 @@
-# algoritmika-task-15
