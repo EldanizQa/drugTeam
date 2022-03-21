@@ -1,0 +1,373 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+/* Указываем box sizing */ 
+*, 
+*::before, 
+*::after { 
+  box-sizing: border-box; 
+} 
+ 
+/* Убираем внутренние отступы */ 
+ul[class], 
+ol[class] { 
+  padding: 0; 
+} 
+ 
+/* Убираем внешние отступы */ 
+body, 
+h1, 
+h2, 
+h3, 
+h4, 
+p, 
+ul[class], 
+ol[class], 
+li, 
+figure, 
+figcaption, 
+blockquote, 
+dl, 
+dd { 
+  margin: 0; 
+} 
+ 
+/* Выставляем основные настройки по-умолчанию для body */ 
+body { 
+  min-height: 100vh; 
+  scroll-behavior: smooth; 
+  text-rendering: optimizeSpeed; 
+  line-height: 1.5; 
+} 
+ 
+/* Удаляем стандартную стилизацию для всех ul и il, у которых есть атрибут class*/ 
+ul[class], 
+ol[class] { 
+  list-style: none; 
+} 
+ 
+/* Элементы a, у которых нет класса, сбрасываем до дефолтных стилей */ 
+a:not([class]) { 
+  text-decoration-skip-ink: auto; 
+} 
+ 
+/* Упрощаем работу с изображениями */ 
+img { 
+  max-width: 100%; 
+  display: block; 
+} 
+ 
+/* Наследуем шрифты для инпутов и кнопок */ 
+input, 
+button, 
+textarea, 
+select { 
+  font: inherit; 
+}
+.container {
+  margin: 0 auto;
+  width: 80%;
+}
+.logo {
+  margin-bottom: 100px;
+  margin-top: 8px;
+}
+.data__container {
+  display: flex;
+  gap: 35px;
+  flex-direction: row;
+  font-family: 'Roboto';
+  font-size: 20px;
+  height: 80px;
+}
+.question-img {
+  display: flex;
+  align-items: center;
+}
+.data__container img{
+  display:inline-flex;
+}
+.question {
+  display: flex;
+}
+.question__container{
+  display: flex;
+  justify-content: space-between;
+}
+.question-text {
+  width: 628px;
+}
+.question-text h1 {
+  font-family: 'Roboto Slab', serif;
+  font-weight: bold;
+  font-size: 80px;
+  line-height: 101.38%;
+  margin-top: 29px;
+  margin-bottom: 60px;
+}
+#a {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 150%;
+  margin: 0;
+  width: 414px;
+  height: 62px;
+}
+.blockquote__container{
+  display: flex;
+  justify-content: center;
+}
+.quote {
+  background-color: #1e4681;
+  height: 200px;
+  border-radius: 5px;
+  margin: 70px 0;
+}
+.quote_text {
+  width: 430.59px;
+  height: 113px;
+  font-family: Roboto Slab;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 130%;
+  color: #ffffff;
+  margin: 0.26px 27.02px 0.74px 26.03px;
+  box-sizing: border-box;
+  padding-top: 19px;
+}
+#b {
+  margin: 0;
+}
+#c {
+  font-family: 'Roboto';
+  font-size: 20px;
+  text-align: right;
+  color: #ffffff;
+  margin-top: 10px;
+}
+.about__container{
+  flex-direction: row;
+  justify-content: space-between;
+}
+.about-course h2 {
+  margin-bottom: 26px;
+  font-family: 'Roboto Slab';
+  font-size: 55px;
+}
+.about-course {
+  width: 80%;
+  margin: 0 auto;
+}
+.about {
+  width: 600px;
+  font-family: Roboto;
+  font-size: 24px;
+  line-height: 150%;
+}
+.about p {
+  margin-bottom: 24px;
+}
+.block-2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.camera {
+  display: flex;
+  align-items: center;
+}
+.camera img {
+  width: 366px;
+  height: 344px;
+}
+.block-3 {
+  display: flex;
+}
+.block-3-statements {
+  display: flex;
+  justify-content: space-between;
+  width: 65%;
+}
+.block-3__container {
+  margin-top: 36px;
+  margin-bottom: 36px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.block-3-statements h3 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  margin: 20px 0px;
+}
+.block-3-statements p {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+}
+.block1, .block2, .block3 {
+  width: 170px;
+}
+
+.block-3{
+  margin-bottom: 10%;
+}
+
+
+
+
+
+
+
+
+/* ELDANIZ*/
+.greyblockmain {
+  margin: 100px 0;
+}
+.grey-block__title {
+  margin-bottom: 34px;
+  font-family: "Roboto Slab";
+  font-weight: 700;
+  font-size: 55px;
+  line-height: 56px;
+}
+
+.grey-block__container container {
+  margin: 0px 100px;
+}
+.page__grey-block {
+  width: 100%;
+  background-color: #efefef;
+  overflow: hidden;
+}
+.grey-block__div {
+  padding: 80px 50px;
+  background-color: white;
+  border-radius: 30px;
+  box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.25);
+}
+.grey-block__text {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 24px;
+}
+.grey-block__name-link {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.grey-block__autor-link {
+  display: flex;
+  align-items: center;
+}
+.grey-block__photo {
+  padding: 26px;
+  padding-left: 0;
+}
+.grey-block__image {
+  width: 190px;
+  height: 169px;
+}
+.grey-block__name {
+  font-family: "Roboto Slab";
+  font-weight: 700;
+  font-size: 30px;
+}
+.grey-block__icon-facebook {
+  width: 40px;
+}
+.page__blue-block {
+  width: 100%;
+  overflow: hidden;
+  background: #9dc9c8;
+}
+.bluepagemain {
+  margin: 165px 0;
+}
+.blue-block__second-title {
+  font-size: 55px;
+  margin-bottom: 54px;
+  font-family: "Roboto";
+}
+.blue-block__price-text {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 30px;
+  line-height: normal;
+}
+.blue-block__price-bold {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 80px;
+  line-height: 81px;
+  margin-bottom: 70px;
+}
+.blue-block__second-div {
+  display: flex;
+  gap: 170px;
+}
+.blue-block__content {
+  width: 35%;
+}
+
+.blue-block__registration {
+  margin-bottom: 10px;
+}
+.blue-block__registration-text {
+  font-family: "Roboto";
+  font-size: 18px;
+  line-height: 18px;
+}
+
+.footer {
+  background-color: black;
+  overflow: hidden;
+}
+.footer__container {
+  position: relative;
+  padding: 0;
+  margin: 100px auto !important;
+}
+.footer__telefon-connections, .footer__social-media {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+.footer_info {
+  display: flex;
+  justify-content: space-between;
+}
+.footer__connection {
+gap: 15px;
+}
+
+.footer__social-media-icon {
+  display: flex;
+}
+.footer__social-media-icon {
+  gap: 20px;
+}
+.footer__connection {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.telefon-number, .footer__synchronization, .email-address {
+  color: white;
+  font-family: "Roboto";
+  font-size: 22px;
+  line-height: 25px;
+} 
+.footer__synchronization {
+  margin-top: 18px;
+}
+.for_centering_footer {
+  display: flex;
+  align-items: center;
+}
+
